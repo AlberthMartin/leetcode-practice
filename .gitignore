@@ -1,0 +1,98 @@
+# =========================
+# Build / output directories
+# =========================
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper (keep everything in .mvn/wrapper)
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Node / Expo
+node_modules/
+**/node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+
+# React Native (if ever ejected)
+android/
+ios/
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
+.env.*
+
+# =========================
+# IDE files
+# =========================
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Maven / Gradle / Java artifacts
+# =========================
+*.log
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Environment / configuration files
+# =========================
+.env
+application.properties
+application-*.properties
+application.yml
+application-*.yml
+
+# =========================
+# Temporary / backup files
+# =========================
+*.tmp
+*.bak
+.kotlin
